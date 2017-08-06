@@ -1,10 +1,10 @@
 @font-face {
     font-family : 'emoticons';
-    src         : url('../fonts/emoticons.eot?5zh0vu');
-    src         : url('../fonts/emoticons.eot?#iefix5zh0vu') format('embedded-opentype'),
-    url('../fonts/emoticons.woff?5zh0vu') format('woff'),
-    url('../fonts/emoticons.ttf?5zh0vu') format('truetype'),
-    url('../fonts/emoticons.svg?5zh0vu#icomoon') format('svg');
+    src         : asset-url('emoticons.eot?5zh0vu');
+    src         : asset-url('emoticons.eot?#iefix5zh0vu') format('embedded-opentype'),
+    asset-url('emoticons.woff?5zh0vu') format('woff'),
+    asset-url('emoticons.ttf?5zh0vu') format('truetype'),
+    asset-url('emoticons.svg?5zh0vu#icomoon') format('svg');
     font-weight : normal;
     font-style  : normal;
     }
